@@ -20,7 +20,7 @@ succeed_round = 0
 while True:
     guessed_letter = input("Guess a letter: ")
     
-    if fault == len(choice) / 2 :
+    if fault == len(choice):
         print("YOU LOST!")
         print(f"The word was: {choice}")
         break
